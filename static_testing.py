@@ -17,7 +17,7 @@ class CardGame:
 
 
 def cards_total(self, cards): # line should be indented
-total                         #this doesn't need to be here at all
+total                         #this should be total = 0
 for card in cards:            # no need for this to be on line below
     total += card.value       
     return "You have a total of" + total 
